@@ -4,6 +4,11 @@ function App() {
   return (
     <div>
       <h1>GAME BOX</h1>
+
+
+
+
+      
     </div>
   )
 }
