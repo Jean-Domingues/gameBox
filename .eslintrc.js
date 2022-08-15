@@ -33,5 +33,8 @@ module.exports = {
     "import/extensions": "off",
     "react/function-component-definition": "off",
     "react/jsx-props-no-spreading": "off",
+    "import/no-extraneous-dependencies": "off",
+    "import/no-unresolved": "off",
+    "no-alert": "off",
   },
 };

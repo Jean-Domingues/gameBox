@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["src/*"],
+      "@config/*": ["src/config/*"]
+    },
+    "target": "es2016",
+    
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "jsx": "react",
+    "module": "esnext",
+
+    "moduleResolution": "node",
+    "allowJs": true,
+    "resolveJsonModule": true,
+
+    "noEmit": true,
+    "isolatedModules": true,
+    "esModuleInterop": true,
+    "forceConsistentCasingInFileNames": true,
+
+    "noImplicitAny": false,
+    "strict": true,
+    "skipLibCheck": true,
+    "incremental": true
+  },
+  "include": ["src", "custom.d.ts"],
+  "exclude": ["node_modules"]
+}

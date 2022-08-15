@@ -7,19 +7,6 @@
   padding: 0;
 }
 
-/* Remove default margin */
-body,
-h1,
-h2,
-h3,
-h4,
-p,
-figure,
-blockquote,
-dl,
-dd {
-  margin: 0;
-}
 
 /* Remove list styles on ul, ol elements with a list role, which suggests default styling will be removed */
 ul[role='list'],
@@ -36,8 +23,8 @@ html:focus-within {
 body {
   min-height: 100vh;
   text-rendering: optimizeSpeed;
-  line-height: 1.5;
   color: #707070;
+  background-color: #000000;
 }
 
 @media (max-width: 1080px) {
@@ -58,7 +45,11 @@ body,
 input,
 textarea,
 button {
-  font: 400 16px 'Roboto', sans-serif;
+  font-family: 400 16px 'Roboto', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Rubik';
 }
 
 a {
